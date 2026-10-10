@@ -1,0 +1,100 @@
+{
+  "name": "Dewkeepers durable progress v6 experimental preview",
+  "version": "v6-pages-20261010",
+  "date": "2026-10-10",
+  "runtime_commit": "8a05d0c2f7087eb7bf84d0ee12b2182b198476aa",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "candidate_zip_sha256": "dfd889e8efb55ebe396eba77959fe44f8cdf578c5592223afeab36669fd5b71e",
+  "game_assets_modified": false,
+  "loader": "persistentPaths=[]; Progress autoload installs the unchanged bridge compiled inside index.pck before its first storage request. No legacy IDBFS mount.",
+  "storage": "Dedicated dewkeepers-expansion-progress-v1 database for expedition stage-start checkpoints and completed endless records; classic Web session only; browser-local, no account/cloud sync/payment.",
+  "storage_diagnostic": "Separate ordinary HTML UI. Unchanged bridge SCRIPT bytes with a scoped IndexedDB dependency facade. Only explicit clicks use randomized synthetic canary records; no game saves, database enumeration or deletion.",
+  "validation_scope": "Automated mechanism tests passed. Real browser Godot gameplay, game checkpoint reload/reopen and multi-device compatibility remain unverified. The synthetic diagnostic does not prove game UI or power-loss durability.",
+  "files": {
+    "CREDITS.md": {
+      "bytes": 2332,
+      "sha256": "18442b313f598a47e798281aef7e9236e955e0241a4907a0c0e1ecbdb4304cb8",
+      "git_blob_sha": "19127c09d10b57c700bc0b91c5ba48cec677dd83"
+    },
+    "OFL.txt": {
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "git_blob_sha": "1c9f43281b8f216c5461fe9ac729afbade7724e4"
+    },
+    "game/index.apple-touch-icon.png": {
+      "bytes": 26552,
+      "sha256": "7d632b40a992a30c8326ce48ceaf85516d124212f4a51bd3f61e9d1bd75ca585",
+      "git_blob_sha": "ed9f775460d7fbd98e0a2a4abff87a2b4f39a803"
+    },
+    "game/index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+      "git_blob_sha": "4e512c1e3c99c63cc69b0345b7bb250679e0d313"
+    },
+    "game/index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+      "git_blob_sha": "3b94cab85cb937fa27056d17648cdbb73e44bdbd"
+    },
+    "game/index.html": {
+      "bytes": 5586,
+      "sha256": "93a0e796bd0bd4233546f99b815b4bc8e43f2e8c39187bc4ca6b6578378b7b51",
+      "git_blob_sha": "f4a7bceacaa0e6002333932e89c79ef4437eb067"
+    },
+    "game/index.icon.png": {
+      "bytes": 45734,
+      "sha256": "3ff5531cfcd9d136b526d21a5e457b6288045dff67ad232ee3490167873f03cc",
+      "git_blob_sha": "0a53a4d6ddc1f151684181319f8a0a3ce32f49e0"
+    },
+    "game/index.js": {
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "git_blob_sha": "c84b7de50f26f0dd21bd4b2885de851a3ea6ff39"
+    },
+    "game/index.pck": {
+      "bytes": 2137420,
+      "sha256": "ba43ec55a8300edde5f4a332313702dee0cce74d01b2ffaf126b459b2c760e83",
+      "git_blob_sha": "197ba9aafac5dc0f3426b9dcaa4f7d562d8ade56"
+    },
+    "game/index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+      "git_blob_sha": "766b0b66efb1ac8cb53d9cd6b7fa2ef70c6ec559"
+    },
+    "game/index.wasm": {
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+      "git_blob_sha": "8f900d00d644a698bbce67439bf6daf73bdfa4b7"
+    },
+    "index.html": {
+      "bytes": 3035,
+      "sha256": "434f469be98081d479b0cf0e323b311faef62698c15c5bfe9fa5231160c5ab7f",
+      "git_blob_sha": "56ebef9c99b456f8c05cb7c8c16e04ad21560d37"
+    },
+    "storage-check/canary-scope.js": {
+      "bytes": 8400,
+      "sha256": "cb2d4229d4114f2afbf53cc7a864cd2631e184c3f5f116d4654a7148ccb1e477",
+      "git_blob_sha": "7bf2e8455caf86f84f5d61a831c55a2aba7179a8"
+    },
+    "storage-check/check.js": {
+      "bytes": 11525,
+      "sha256": "e3565b59c55ca10b13cb6f87b842ce85ccf001e022054e40658f7be3f23f271e",
+      "git_blob_sha": "586e6918e01d3ee738ceb3b3d05ecb8ee7edfbbc"
+    },
+    "storage-check/index.html": {
+      "bytes": 4567,
+      "sha256": "032a77000d038e6552dd1a137a41759485bee732fa0172efc7b7fdd59282c44a",
+      "git_blob_sha": "02f2c2ce5a4f6b6d09dd1f85822d4f1610a588ec"
+    },
+    "storage-check/production-bridge.js": {
+      "bytes": 3393,
+      "sha256": "91c976d739e9527757fea288ef0f04c23ee9acce46fa504e297a304393943199",
+      "git_blob_sha": "eddd86732a666e0bebcc1aaea9f6e40d6359da1b"
+    },
+    "storage-check/style.css": {
+      "bytes": 1341,
+      "sha256": "2417e8735448ba89b773301bb4494576c244aaca30da4acc9eab93334427bc96",
+      "git_blob_sha": "347f756bab3f89d430aff903f68b026a19992738"
+    }
+  }
+}

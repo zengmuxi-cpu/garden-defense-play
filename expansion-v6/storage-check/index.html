@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'none'; img-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>Dewkeepers v6 · 浏览器存储诊断</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="canary-scope.js"></script>
+  <script defer src="production-bridge.js"></script>
+  <script defer src="check.js"></script>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">DEWKEEPERS · v6 / STORAGE CHECK</p>
+    <h1>只测试一次性存储样本</h1>
+    <p class="intro">普通点击即可运行，不需要 WebGL。页面刚加载时不打开数据库；刷新或另开标签后，也要点击才读取。</p>
+    <section class="scope">
+      <h2>范围与保留说明</h2>
+      <ul>
+        <li>只打开下方随机 canary 数据库。不会打开、枚举、读取或修改游戏真实存档、旧版存档或 /userfs。</li>
+        <li>只写固定的合成样本，两个小记录，不包含用户资料。每个 run 的记录载荷小于 8 KiB；浏览器数据库元数据另计。</li>
+        <li>不自动删除数据库或记录。不调用 deleteDatabase、clear 或 delete；样本保留供你之后在浏览器设置中自行清理。</li>
+        <li>成功只表示此浏览器在本次测试中完成了事务/回读。不能证明 Godot 游戏 UI、永久保留、磁盘故障、系统回收或断电安全。</li>
+      </ul>
+      <p>运行编号：<span id="run">尚未创建</span><br>数据库：<span id="database">尚未打开</span><br>标签角色：<span id="role">A</span></p>
+    </section>
+    <p id="status" role="status" aria-live="polite">准备就绪。请先阅读范围，再选择动作。</p>
+    <section>
+      <h2>1 · 准备与刷新回读</h2>
+      <div class="actions">
+        <button id="prepare" type="button">创建随机样本并写入 A → B</button>
+        <button id="verify" type="button" disabled>只读验证 / 刷新后续测</button>
+        <button id="reload" type="button" disabled>刷新此页（不写数据）</button>
+      </div>
+      <p>首次点击创建按钮，会新建随机库并提交两次。看到通过后刷新，再点只读验证；也可保存当前地址，关闭标签后用同一浏览器重新打开。</p>
+    </section>
+    <section>
+      <h2>2 · 精确重试与失败回滚</h2>
+      <div class="actions">
+        <button id="duplicate" type="button" disabled>重试同一提交（应无重复写入）</button>
+        <button id="abort" type="button" disabled>测试中止事务（样本应不变）</button>
+      </div>
+      <p>中止测试在第一个 put 请求成功后主动 abort；随后只读比较 current 和 backup 的原始字节。</p>
+    </section>
+    <section>
+      <h2>3 · 双标签 CAS 与可见性</h2>
+      <div class="actions">
+        <button id="arm" type="button" disabled>只读锁定本标签基线</button>
+        <a id="second-tab" aria-disabled="true" target="_blank" rel="noopener noreferrer">打开第二标签 B</a>
+        <button id="cas" type="button" disabled>提交本标签 CAS 候选</button>
+      </div>
+      <p>先在 A、B 两标签各点「锁定基线」，再在 A 提交、B 提交。应恰有一次成功、一次 conflict；两边再只读验证，应看到相同结果。此步骤证明过期标签的 CAS 保护；若要记录真正同时竞争，需两边在锁定同一基线后近乎同时点击，并保留两份报告。</p>
+      <p class="fine">CAS 与生产桥一致，只比较 current 的原始字节，不是针对 backup 的第二次 CAS。请勿在其他工具中编辑这个测试库。本页范围承诺基于这里列出的固定脚本，不是针对额外恶意同源脚本的安全沙箱。</p>
+      <p id="armed">尚未锁定基线。</p>
+    </section>
+    <section>
+      <h2>本页结果</h2>
+      <ol id="results"></ol>
+      <details><summary>原始诊断记录（仅合成测试值）</summary><pre id="report"></pre></details>
+      <button id="download" type="button">下载本页 JSON 报告</button>
+      <p class="fine">每次刷新只保留数据库样本，本页日志重新开始。刷新前后、两个标签的报告需分别保存。页面没有遥测、上传、登录、权限申请或持久化授权请求。</p>
+    </section>
+  </main>
+</body>
+</html>
