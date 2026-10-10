@@ -1,0 +1,77 @@
+{
+  "name": "露珠守园人 Boss V7B 存档文案修正版",
+  "date": "2026-10-10",
+  "status": "experimental_candidate",
+  "runtime_commit": "130252ed27e756632305d45358680479a73e9b17",
+  "web_package_sha256": "29637ab1d902ddbd065c2372921d880d1d3cebc52c47769ffd291a6576c7a4fe",
+  "game_files_unchanged_from_verified_package": true,
+  "storage_scope": {
+    "classic": "current browser session only",
+    "expedition": "between-stage starting point only",
+    "endless": "completed-run results only",
+    "v6": "shares same-origin expansion records with v6; export DEX2 backup before testing"
+  },
+  "browser_acceptance": "Real gameplay, refresh/reopen, mobile compatibility and physical persistence not fully verified. WebGL 2 required.",
+  "files": {
+    "boss-preview/CREDITS.md": {
+      "bytes": 2332,
+      "sha256": "18442b313f598a47e798281aef7e9236e955e0241a4907a0c0e1ecbdb4304cb8",
+      "git_blob": "19127c09d10b57c700bc0b91c5ba48cec677dd83"
+    },
+    "boss-preview/OFL.txt": {
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "git_blob": "1c9f43281b8f216c5461fe9ac729afbade7724e4"
+    },
+    "boss-preview/game/index.apple-touch-icon.png": {
+      "bytes": 26552,
+      "sha256": "7d632b40a992a30c8326ce48ceaf85516d124212f4a51bd3f61e9d1bd75ca585",
+      "git_blob": "ed9f775460d7fbd98e0a2a4abff87a2b4f39a803"
+    },
+    "boss-preview/game/index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+      "git_blob": "4e512c1e3c99c63cc69b0345b7bb250679e0d313"
+    },
+    "boss-preview/game/index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+      "git_blob": "3b94cab85cb937fa27056d17648cdbb73e44bdbd"
+    },
+    "boss-preview/game/index.html": {
+      "bytes": 5586,
+      "sha256": "7751b77f742de09fe94354e87702668d4c3a6b9c800e00e1e2ce5090d7e240c9",
+      "git_blob": "1507f2bbc8cce2798ecfaf10a484e23147b6601c"
+    },
+    "boss-preview/game/index.icon.png": {
+      "bytes": 45734,
+      "sha256": "3ff5531cfcd9d136b526d21a5e457b6288045dff67ad232ee3490167873f03cc",
+      "git_blob": "0a53a4d6ddc1f151684181319f8a0a3ce32f49e0"
+    },
+    "boss-preview/game/index.js": {
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "git_blob": "c84b7de50f26f0dd21bd4b2885de851a3ea6ff39"
+    },
+    "boss-preview/game/index.pck": {
+      "bytes": 2152000,
+      "sha256": "23595bc910f2a14663ee904b29f869aecc9e27148ea9a3acb1d7627e2f0b6384",
+      "git_blob": "2dc05f6dd22e9a4a82e83b1a61ab186bb0caa95c"
+    },
+    "boss-preview/game/index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+      "git_blob": "766b0b66efb1ac8cb53d9cd6b7fa2ef70c6ec559"
+    },
+    "boss-preview/game/index.wasm": {
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+      "git_blob": "8f900d00d644a698bbce67439bf6daf73bdfa4b7"
+    },
+    "boss-preview/index.html": {
+      "bytes": 3473,
+      "sha256": "833f252a7130b68b7f534a5a2c9d6f1bfe8680e0f7b1f223638ff6038464dedd",
+      "git_blob": "1a6dd478d129c900e4bdb6966bf9e39da7ea0afb"
+    }
+  }
+}
