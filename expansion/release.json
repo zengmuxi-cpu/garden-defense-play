@@ -1,10 +1,14 @@
 {
-  "name": "Dewkeepers Content Expansion Web Preview",
-  "version": "1.3.0-content-candidate-pages-20261010",
-  "runtime_commit": "b2ffbc989bf878322f051df719ff42cc5f6e37a9",
+  "name": "Dewkeepers Challenge v5B Web Preview",
+  "version": "v5B-pages-20261010",
+  "date": "2026-10-10",
+  "runtime_commit": "d4968d0049db59758c45fb921f09eef1746039b2",
   "engine": "4.7.2.stable.official.ed1daf0bf",
   "session_only": true,
-  "loader_change": "persistentPaths is empty; no IndexedDB filesystem is mounted. Original PCK and WASM unchanged.",
+  "loader_change": "persistentPaths is empty; no IndexedDB filesystem is mounted. Original candidate PCK and WASM unchanged.",
+  "original_candidate_game_html_sha256": "8a71d774193e8ee58263616d1fe885e0c1401d2d1e268c8640c272416d948476",
+  "published_game_html_sha256": "cf367244a6ff1bd3f2c0c0a11931ef66499e781e72d9a04b31411f246f687bad",
+  "validation_scope": "Native exact-PCK and automated mechanism checks passed. Human play, browser interaction and multi-device compatibility remain unverified. Later expedition stages have limited pressure against strong strategies.",
   "files": {
     "CREDITS.md": {
       "bytes": 2332,
@@ -28,7 +32,7 @@
     },
     "game/index.html": {
       "bytes": 5478,
-      "sha256": "096fa75d62a242db06779d256f3b7ba588049b1e6f0d4266959a738986f31703"
+      "sha256": "cf367244a6ff1bd3f2c0c0a11931ef66499e781e72d9a04b31411f246f687bad"
     },
     "game/index.icon.png": {
       "bytes": 45734,
@@ -39,8 +43,8 @@
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
     "game/index.pck": {
-      "bytes": 2100296,
-      "sha256": "4d92f2aa231fff440ef6e109d37598fb295d0555c567fd769b7ceaa661b75b55"
+      "bytes": 2112152,
+      "sha256": "5b59cae0fdc09caaa05cdc259c9e495e0502a6c38810e5daf216124b614bc7c6"
     },
     "game/index.png": {
       "bytes": 21443,
@@ -51,8 +55,8 @@
       "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
     },
     "index.html": {
-      "bytes": 2039,
-      "sha256": "e3c92f36c92d49d8c46c0311fc9e3f234eded1920b8955d05d47e3231e65670a"
+      "bytes": 2288,
+      "sha256": "c04772e8ad08472d14b1866cab8bd5b626e82befef44491d5ccc4de4461a6c8e"
     }
   }
 }
