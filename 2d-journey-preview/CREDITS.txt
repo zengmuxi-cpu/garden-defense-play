@@ -1,0 +1,9 @@
+Dewkeepers / 露珠守园人 · 三关九波测试版
+
+Game and original art: Dewkeepers project. 2D sprites were authored as SVG and rasterized by the original project tooling. The original authored 3D GLBs were created for this project; snail, moth, blob/mini and king are explicitly lightweight geometry variants, not a completed new art set. No new purchased or downloaded art is used.
+Sound and music: original procedural synthesis using oscillators/envelopes, no samples, CC0 1.0. See LICENSES/AUDIO-LICENSE.txt.
+Fonts: Noto Sans CJK subsets, SIL Open Font License 1.1. Complete supplied notices: LICENSES/ClassicUI-LICENSE.txt and LICENSES/DewFeedbackUI-LICENSE.txt.
+Engine: official Godot Engine 4.7.2, MIT License. Complete engine and bundled-component notices: LICENSES/Godot-MIT.txt, LICENSES/Godot-third-party.json and LICENSES/Godot-copyright.json (component names, file scopes and full copyright attributions). https://godotengine.org/license/
+
+This candidate retains progress only in the current Session. Closing or refreshing loses that progress. It contains no account, analytics, payment, recording upload or real profile/database integration. A browser still downloads the static engine/game files from whichever server is chosen later.
+This local candidate has not been deployed. Browser WebGL, real sound, AudioContext behavior and audio memory use remain unverified. No physical-device acceptance is claimed.
