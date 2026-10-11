@@ -1,0 +1,77 @@
+{
+  "version": "0.2.0-3d-quality-candidate",
+  "revision": "R2",
+  "source_commit": "3865b8024f2011984106a557fd649b167c1a6484",
+  "source_fingerprint": "d375e288927f69769571ae0e10946997c11dbd0de1ef0545d717257fd1f36f3c",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "entrypoint": "index.html",
+  "runtime_files": [
+    "index.html",
+    "index.js",
+    "index.pck",
+    "index.wasm",
+    "index.png",
+    "index.icon.png",
+    "index.apple-touch-icon.png",
+    "index.audio.worklet.js",
+    "index.audio.position.worklet.js"
+  ],
+  "files": {
+    "OFL.txt": {
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "git_blob_sha": "1c9f43281b8f216c5461fe9ac729afbade7724e4"
+    },
+    "THIRD_PARTY_NOTICES.txt": {
+      "bytes": 1557,
+      "sha256": "b53359ee761228a725b74c20e54a4cb67d1266313698674c4cb10154215a31f1",
+      "git_blob_sha": "b9488e01cfc639922ed25efb18022a88bc4d803b"
+    },
+    "index.apple-touch-icon.png": {
+      "bytes": 22075,
+      "sha256": "0533bf974eb9b72cbe18ac65731faebdb60ca0fbeee376b2dd456abb47a1f0a2",
+      "git_blob_sha": "597313eb86618fef0eae9a46c32ab9d4cc5921fa"
+    },
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+      "git_blob_sha": "4e512c1e3c99c63cc69b0345b7bb250679e0d313"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+      "git_blob_sha": "3b94cab85cb937fa27056d17648cdbb73e44bdbd"
+    },
+    "index.html": {
+      "bytes": 5600,
+      "sha256": "9c14030b123133f268ec31a6433eb024d6765ade139c7c69487e2165b7614761",
+      "git_blob_sha": "df136e06798b6efc33518d24a5df55bfab9b07bc"
+    },
+    "index.icon.png": {
+      "bytes": 49670,
+      "sha256": "9bc0c9cd8e3f7e4fcb2888a4718a638136dbe22c4664f21b298647d2f7b6e513",
+      "git_blob_sha": "1991aa6433d7675b34a5e013b4314b6001f065d9"
+    },
+    "index.js": {
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "git_blob_sha": "c84b7de50f26f0dd21bd4b2885de851a3ea6ff39"
+    },
+    "index.pck": {
+      "bytes": 943916,
+      "sha256": "1847e76f704658bc592cb6b80620ae831ded147f6303ffd05a9b2bfdcd6e97b2",
+      "git_blob_sha": "8e4603cffc9415af533e6f4dceddefc71cade8dd"
+    },
+    "index.png": {
+      "bytes": 49670,
+      "sha256": "9bc0c9cd8e3f7e4fcb2888a4718a638136dbe22c4664f21b298647d2f7b6e513",
+      "git_blob_sha": "1991aa6433d7675b34a5e013b4314b6001f065d9"
+    },
+    "index.wasm": {
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+      "git_blob_sha": "8f900d00d644a698bbce67439bf6daf73bdfa4b7"
+    }
+  },
+  "validation_limit": "Actual browser WebAssembly/WebGL 2 rendering, device performance, and touch interaction remain unverified."
+}
