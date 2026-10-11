@@ -1,0 +1,1 @@
+Original Dewkeepers procedural audio, CC0 1.0. Synthesized by tools/make_audio.py using oscillators/envelopes, no samples. See project CREDITS.md. No new third-party audio.
