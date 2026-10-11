@@ -1,0 +1,83 @@
+{
+  "version": "0.3.0-3d-five-lanes-candidate",
+  "revision": "R3-five-lanes-camera-motion-candidate",
+  "source_commit": "3b02483233a276ae0e5ed1aaf66950d8d6cfe1c3",
+  "source_fingerprint": "3e36902ad6d8ccd2059bf3f94d5e5f4ea52d158e7c8ff8c7fd1089a109b755aa",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "entrypoint": "index.html",
+  "runtime_files": [
+    "index.apple-touch-icon.png",
+    "index.audio.position.worklet.js",
+    "index.audio.worklet.js",
+    "index.html",
+    "index.icon.png",
+    "index.js",
+    "index.pck",
+    "index.png",
+    "index.wasm"
+  ],
+  "files": {
+    "OFL.txt": {
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "git_blob_sha": "1c9f43281b8f216c5461fe9ac729afbade7724e4"
+    },
+    "THIRD_PARTY_NOTICES.txt": {
+      "bytes": 1577,
+      "sha256": "4582783cfb3a6c27fbeb9a85f89ed47fd67faeccc759c630580dd3f94bf3f40b",
+      "git_blob_sha": "64012f60e2501f1f35f652d32d28eb8fce6090d1"
+    },
+    "index.apple-touch-icon.png": {
+      "bytes": 22075,
+      "sha256": "0533bf974eb9b72cbe18ac65731faebdb60ca0fbeee376b2dd456abb47a1f0a2",
+      "git_blob_sha": "597313eb86618fef0eae9a46c32ab9d4cc5921fa"
+    },
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+      "git_blob_sha": "4e512c1e3c99c63cc69b0345b7bb250679e0d313"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+      "git_blob_sha": "3b94cab85cb937fa27056d17648cdbb73e44bdbd"
+    },
+    "index.html": {
+      "bytes": 5615,
+      "sha256": "dfc944918f8ba6a0633f8ef96790717d40445ef37878acc3406ab50550aeaf54",
+      "git_blob_sha": "0d8b11016472b8e7c9aa5f478bcdf99789c4d118"
+    },
+    "index.icon.png": {
+      "bytes": 49670,
+      "sha256": "9bc0c9cd8e3f7e4fcb2888a4718a638136dbe22c4664f21b298647d2f7b6e513",
+      "git_blob_sha": "1991aa6433d7675b34a5e013b4314b6001f065d9"
+    },
+    "index.js": {
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "git_blob_sha": "c84b7de50f26f0dd21bd4b2885de851a3ea6ff39"
+    },
+    "index.pck": {
+      "bytes": 974816,
+      "sha256": "5d81616d871ea4263df33892ff0e3579c1a1efac39073b3756cf3d76bd1c4530",
+      "git_blob_sha": "8da67852d8940f52d5e43d67e36786b340e96d89"
+    },
+    "index.png": {
+      "bytes": 49670,
+      "sha256": "9bc0c9cd8e3f7e4fcb2888a4718a638136dbe22c4664f21b298647d2f7b6e513",
+      "git_blob_sha": "1991aa6433d7675b34a5e013b4314b6001f065d9"
+    },
+    "index.wasm": {
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+      "git_blob_sha": "8f900d00d644a698bbce67439bf6daf73bdfa4b7"
+    }
+  },
+  "features": [
+    "Five lanes and six planting columns",
+    "Bounded orbit and zoom camera",
+    "Articulated character motion and finite death visuals",
+    "Three basic-training waves; further tactical balancing planned"
+  ],
+  "validation_limit": "Actual browser WebAssembly/WebGL 2 rendering, device performance, and touch interaction remain unverified. Automated technical checks do not establish mature gameplay quality."
+}
