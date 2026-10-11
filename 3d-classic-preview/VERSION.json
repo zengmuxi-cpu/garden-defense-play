@@ -1,0 +1,12 @@
+{
+  "version": "CG2-A1",
+  "source_commit": "cb8529d5dfba5033fc594d1c25daf7e720a86033",
+  "pure_visual_commit": "175af5e9e6377af3be3dee538d14f429507429f9",
+  "audio_source_commit": "c2adab16160c6a32890fc7521a28c76ab44c5b9e",
+  "engine": "Godot4.7.2 official no-threads",
+  "pck_sha256": "25af4c1a422d8d7441b577ab1f59e0fc72ab406ed98e0dd8bf98bd271b354224",
+  "scope": "Fresh session-only Classic first level. Three waves,24 pests,three plants,two blessing choices. No persistent save or next level.",
+  "verified": "Headless real Viewport inputs, five window sizes, expanded camera, source/PCK deterministic equality, A1 controlled audio lifecycle.",
+  "not_verified": "Real WebGL/GPU appearance and performance, physical audio, browser RSS stability, human touch comfort. Cloud browser lacks WebGL2.",
+  "credits": "CREDITS.txt"
+}
